@@ -1,0 +1,58 @@
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+* {
+    color: white;
+    scroll-behavior: smooth;
+}
+
+.landing {
+    font-family: 'Montserrat', sans-serif;
+    min-height: 100vh;
+    background-image: url(../assets/gradient-background.svg);
+    background-position: 100% 100%;
+    background-size: 200%;
+
+    .heading {
+        text-align: center;
+
+        span {
+            font-size: 3.6rem;
+            font-style: italic;
+        }
+
+        .heading-text {
+            font-weight: 300;
+            font-size: 4.5rem;
+        }
+
+        .heading-sub {
+            font-weight: 100;
+            font-size: 3.5rem;
+        }
+
+        .heading-btn {
+            min-width: 10vw;
+            margin-top: 2rem;
+            font-size: 1.5rem;
+        }
+    }
+
+    @keyframes animateBg {
+
+        0%,
+        100% {
+            background-position: 0% 100%;
+        }
+
+        25%,
+        75% {
+            background-position: 30% 50%;
+        }
+
+        50% {
+            background-position: 100% 25%;
+        }
+    }
+
+    animation: 15s linear 0s infinite normal none running animateBg;
+}
