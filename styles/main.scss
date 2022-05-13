@@ -5,6 +5,19 @@
     scroll-behavior: smooth;
 }
 
+.transparent-bg {
+    background: transparent;
+}
+
+.nav-link{
+    margin-top: 5px;
+    font-size: 1.25rem;
+}
+
+.nav-btn {
+    font-size: 1.1rem;
+}
+
 .landing {
     font-family: 'Montserrat', sans-serif;
     min-height: 100vh;
@@ -14,25 +27,15 @@
 
     .heading {
         text-align: center;
+        height: 75vh;
 
         span {
-            font-size: 3.6rem;
             font-style: italic;
-        }
-
-        .heading-text {
-            font-weight: 300;
-            font-size: 4.5rem;
-        }
-
-        .heading-sub {
-            font-weight: 100;
-            font-size: 3.5rem;
         }
 
         .heading-btn {
             min-width: 10vw;
-            margin-top: 2rem;
+            margin-top: 1.5rem;
             font-size: 1.5rem;
         }
     }
