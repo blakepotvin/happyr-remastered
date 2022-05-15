@@ -1,4 +1,3 @@
-import Section from "./section";
 import Navigation from "./navigation";
 import Button from "react-bootstrap/Button";
 export default function Landing() {
