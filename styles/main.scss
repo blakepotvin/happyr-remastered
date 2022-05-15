@@ -64,13 +64,12 @@
 .section {
     min-height: 30vh;
     padding: 3.25rem 2rem;
-
-    // h1::after {
-    //     content:"";
-    //     display: block;
-    //     border-bottom: 2px solid #fff;
-    //     width: 20%;
-    // }
+    h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 3.25rem;
+        font-weight: 400;
+        margin-bottom: 1rem;
+    }
     
     p {
         font-family: Roboto, sans-serif;
@@ -104,6 +103,7 @@
 
 
 @media (max-width: 1130px) {
+    /* Adds responsiveness with gradient background */
     .landing {
         background-size: cover;
     }
