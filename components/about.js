@@ -10,9 +10,8 @@ export default function About() {
         <Divider/>
         <Section name="about">
             <Row className="d-flex justify-content-between">
-                <Col xs={{number: 12, order: 'last'}} md={{number: 5, order: 'first'}}>
+                <Col xs={{number: 12, order: 'last'}} md={{number: 5, order: 'first'}} className="d-flex justify-content-center flex-column">
                     <h1>About</h1>
-                    <b className="br"></b>
                     <p className="">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Sed euismod, urna eu tincidunt consectetur, nisl nunc euismod
