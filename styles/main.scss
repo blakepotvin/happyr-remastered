@@ -59,3 +59,25 @@
 
     animation: 15s linear 0s infinite normal none running animateBg;
 }
+
+
+.section {
+    min-height: 30vh;
+    padding: 6.5rem 2rem;
+
+    // h1::after {
+    //     content:"";
+    //     display: block;
+    //     border-bottom: 2px solid #fff;
+    //     width: 20%;
+    // }
+    
+    p {
+        font-family: Roboto, sans-serif;
+        color: #99AAB5;
+    }
+}
+
+.about {
+    background-color: #23272A;
+}
