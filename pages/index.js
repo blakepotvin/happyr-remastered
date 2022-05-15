@@ -1,6 +1,8 @@
 import Head from "next/head";
 import Landing from "/components/landing";
 import About from "/components/about";
+import Features from "/components/features";
+
 export default function Home() {
   return (
     <main>
@@ -16,6 +18,7 @@ export default function Home() {
       </Head>
       <Landing />
       <About />
+      <Features />
       {/* <a href="https://storyset.com/people">People illustrations by Storyset</a> */}
     </main>
   );
