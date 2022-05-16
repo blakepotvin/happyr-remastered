@@ -4,7 +4,7 @@ import {Col} from 'react-bootstrap'
 export default function FeatureBox(props) {
   return (
     <>
-      <Col lg={3} className="feature-box">
+      <Col lg={3} md={5} className="feature-box">
         <div className="feature-box-icon text-center">
           <i className={"bi " + props.icon} style={{fontSize: "4rem"}}></i>
         </div>
