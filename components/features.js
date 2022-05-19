@@ -1,6 +1,5 @@
 import React from "react";
 import Section from "./section";
-import Divider from "./divider";
 import FeatureBox from "./featureBox";
 import { Row, Col } from "react-bootstrap";
 import Image from "next/image";
